@@ -65,9 +65,6 @@ button {
 }
 
 /* Component styles */
-.open {
-  visibility: visible;
-}
 
 .preview {
   display: grid;
@@ -84,7 +81,7 @@ button {
 .preview_content {
   /* display: grid; */
   padding: 40px;
-
+  
 }
 
 .preview_details {
@@ -104,3 +101,6 @@ button {
   visibility: hidden;
 }
 
+.open {
+  visibility: visible;
+}
